@@ -1,0 +1,412 @@
+
+*{
+    /* padding: 0;
+    margin: 0; */
+    font-family: sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 2.3em;
+    color: rgb(191, 212, 230);
+}
+h2{
+    font-size: 1.8em;
+}
+h3{
+    font-size: 1.3em;
+}
+h4{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 2em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 2.6em;
+}
+                                        /* empieza nav */
+
+.text-colors{
+    font-size: 2.5em;
+    font-weight:900;
+    color: burlywood;
+}
+.button-color{
+    background-color: burlywood;
+    font-size: 2em;
+}
+.bg-nav{
+    background-color: rgba(25, 31, 28, 0.884);
+}
+
+/* nav{
+    background: none;
+    padding: 30px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-fondo{
+    width: 150px;
+    height: 70px;
+    padding-left: 30px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    padding-left: 30px;
+}
+nav ul li{
+    display: flex;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+nav ul li a{
+    font-size: 2.6em;
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+}    */
+                                        /*termina nav  */
+
+
+h1,
+h2,
+h3
+h4{
+    font-family: sans-serif;
+
+}
+                                        /* +++++ FOOTER ++++++ */
+footer{
+    width: 100%;
+    color: red;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+svg{
+    fill: burlywood;
+}
+footer{
+    margin-top: 42px;
+    width: 100%;
+    background-color: rgb(15, 15, 15);
+    padding: 0 112px;
+
+}
+footer ul{
+    margin-top:12px;
+    margin-right: 92px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+footer ul li{
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+footer ul li a{
+    margin-top: 13px;
+    font-size: 1.4em;
+    color: whitesmoke;
+    
+
+}
+.footerDiv1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+                                        /* +++++ FOOTER ++++++ */
+body{
+    background-image: url(../img/bg/Fondoimagen.png);
+    background-repeat: repeat;
+    background-attachment:fixed;
+    background-image: url(../img/bg/bgGreen.jpg);
+}
+
+
+.text-black{
+    color: whitesmoke;
+}
+
+                                        /* section inicio */
+.section-inicio{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 150px;
+    padding-left: 50px;
+
+}
+.section-inicio img{
+    width: 300px;
+    height: 300px;
+}
+.section-inicio p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+main {
+    background:none;
+    color: rgb(192, 176, 176);
+}
+
+section h1{
+    padding-top: 50px;
+}
+                                        /* empieza contacto */
+.maincontacto section{
+    padding: 30px;
+    font-size: 3em;
+    width: auto;
+}
+
+form label{
+    color: rgb(236, 237, 238);
+    display: block;
+    padding-top: 15px;
+}
+.contactosec iframe{
+    padding-top: 40px;
+}
+                                        /* termina contacto */
+                                        /* start productos destacados flex */
+.productos{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgba(5, 40, 49, 0.651);
+}
+main .productos h1{
+    font-size: 4em;
+    text-align: center;
+    padding: 50px;
+    color: rgb(191, 212, 230);
+    background-color:rgba(5, 40, 49, 0.651)
+}
+/* ++++++ PRODUCTOS DESTACADOS ++++++ */
+.headerIMG{
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin: 0;
+}
+.productos figure{
+    width: 30%;
+    border: solid rgb(128, 128, 128) 1px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+.productos figure img{
+    display: block;
+    width: 90%;
+    margin: 30px auto;
+}
+.productos figure figcaption{
+    font-size: 1.8em;
+    border-radius: 10px;
+    width:auto;
+    height: 36px;
+    text-align: center;
+    margin: 20px 30px;
+}
+.productos figure p{
+    font-size: 1.1em;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+    color: rgb(245, 238, 238);
+}
+
+.productos figure button{
+    border: none;
+    padding: 6px 30px;
+    background-color: rgb(27, 25, 34);
+    border-radius: 3px;
+    color: rgb(245, 238, 238);
+    
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+                                        /* termina productos destacados */
+
+                                        /* empieza productos  grid */
+.filters{
+    padding: 0 20px 30px 30px;
+}
+
+.filters a{
+    color: rgb(134, 130, 132);
+    font-size: 2em;
+    text-decoration: none;
+    margin-bottom: 4px;
+    text-transform:uppercase;
+}
+
+.filters a:hover{
+    color:rgb(20, 188, 255);
+}
+
+    .filters span{
+    display: block;
+    color: whitesmoke;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    font-size: 2em;
+}
+
+.filters select{
+    color: rgb(20, 188, 255);
+    border: none;
+    background-color: white;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.filters li{
+    padding-left: 10px;
+    list-style: none;
+}
+.tienda{
+    margin-right: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 15% repeat(2,auto);
+    grid-template-rows: 50px repeat(4,auto);
+    gap: 20px 10%;
+    
+
+    grid-template-areas:
+    "actions actions actions"
+    "filters prod1 prod2"
+    "filters prod3 prod4"
+    "filters prod5 prod6"
+    "filters prod7 prod8"
+}
+.tienda .actions{
+    
+    padding: 0 30px;
+    grid-area: actions;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.tienda .filters{
+    grid-area: filters;
+}
+.tienda .prod1{
+    
+    grid-area: prod1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.tienda .prod2{
+    grid-area: prod2;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tienda .prod3{
+    grid-area: prod3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tienda .prod4{
+    grid-area: prod4;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tienda .prod5{
+    grid-area: prod5;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.tienda .prod6{
+    grid-area: prod6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tienda .prod7{
+    grid-area: prod7;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tienda .prod8{
+    grid-area: prod8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-prod{
+    
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.prodTexto p,
+.prodTexto h2{
+    color: burlywood;
+    font-size: 2em;
+    font-weight: 700;
+}
+.prodButton button{
+    font-size: 1em;
+    margin: 20px 20px;
+    padding: 12px;
+    border-radius: 15px;
+    background: rgba(5, 5, 5, 0.664);
+    color: burlywood;
+}
