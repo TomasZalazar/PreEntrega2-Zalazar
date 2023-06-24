@@ -1,7 +1,6 @@
 node_modules/
 fuentes/
 *.log
-*.vscode
 *.map
 *.ai
 *.psd
