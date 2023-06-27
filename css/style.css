@@ -44,37 +44,6 @@ p{
     background-color: rgba(25, 31, 28, 0.884);
 }
 
-/* nav{
-    background: none;
-    padding: 30px;
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.logo-fondo{
-    width: 150px;
-    height: 70px;
-    padding-left: 30px;
-}
-nav ul{
-    list-style: none;
-    display: flex;
-    padding-left: 30px;
-}
-nav ul li{
-    display: flex;
-    flex-direction: row;
-    padding-left: 25px;
-    padding-bottom: 30px;
-}
-nav ul li a{
-    font-size: 2.6em;
-    text-decoration: none;
-    color: white;
-    padding: 10px 50px;
-}    */
                                         /*termina nav  */
 
 
@@ -82,26 +51,26 @@ h1,
 h2,
 h3
 h4{
+    color: burlywood;
     font-family: sans-serif;
 
 }
                                         /* +++++ FOOTER ++++++ */
 footer{
     width: 100%;
-    color: red;
-    border: solid black 1px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-}
-svg{
-    fill: burlywood;
-}
-footer{
     margin-top: 42px;
     width: 100%;
-    background-color: rgb(15, 15, 15);
+    background-color: rgb(3, 3, 3);
     padding: 0 112px;
+}
+footer div svg{
+    fill: rgb(182, 155, 121);
+    width: 50px;
+    height: 150px;
+    margin: 5px;
 
 }
 footer ul{
@@ -124,20 +93,14 @@ footer ul li a{
     margin-top: 13px;
     font-size: 1.4em;
     color: whitesmoke;
-    
+    text-decoration: none;
+}
 
-}
-.footerDiv1{
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-}
                                         /* +++++ FOOTER ++++++ */
 body{
-    background-image: url(../img/bg/Fondoimagen.png);
     background-repeat: repeat;
     background-attachment:fixed;
-    background-image: url(../img/bg/bgGreen.jpg);
+    background-image: url(../img/bg/bgAzulado.jpg);
 }
 
 
@@ -176,7 +139,7 @@ section h1{
     padding-top: 50px;
 }
                                         /* empieza contacto */
-.maincontacto section{
+/* .maincontacto section{
     padding: 30px;
     font-size: 3em;
     width: auto;
@@ -186,10 +149,10 @@ form label{
     color: rgb(236, 237, 238);
     display: block;
     padding-top: 15px;
-}
-.contactosec iframe{
-    padding-top: 40px;
-}
+} */
+/* .contactosec iframe{
+    padding-top: 40px;  CAMBIARLOS POR SVG
+} */
                                         /* termina contacto */
                                         /* start productos destacados flex */
 .productos{
