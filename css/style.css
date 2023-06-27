@@ -1,7 +1,6 @@
 
 *{
-    /* padding: 0;
-    margin: 0; */
+    
     font-family: sans-serif;
     text-decoration: none;
     box-sizing: border-box;
@@ -11,7 +10,6 @@ html{
 }
 h1{
     font-size: 2.3em;
-    color: rgb(191, 212, 230);
 }
 h2{
     font-size: 1.8em;
@@ -61,21 +59,16 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 42px;
-    width: 100%;
     background-color: rgb(3, 3, 3);
-    padding: 0 112px;
 }
 footer div svg{
     fill: rgb(182, 155, 121);
     width: 50px;
     height: 150px;
     margin: 5px;
-
 }
 footer ul{
     margin-top:12px;
-    margin-right: 92px;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -95,6 +88,9 @@ footer ul li a{
     color: whitesmoke;
     text-decoration: none;
 }
+footer a{
+    text-decoration: none;
+}
 
                                         /* +++++ FOOTER ++++++ */
 body{
@@ -103,10 +99,6 @@ body{
     background-image: url(../img/bg/bgAzulado.jpg);
 }
 
-
-.text-black{
-    color: whitesmoke;
-}
 
                                         /* section inicio */
 .section-inicio{
@@ -139,20 +131,10 @@ section h1{
     padding-top: 50px;
 }
                                         /* empieza contacto */
-/* .maincontacto section{
-    padding: 30px;
-    font-size: 3em;
-    width: auto;
+.color-switch{
+    background-color:red;
 }
 
-form label{
-    color: rgb(236, 237, 238);
-    display: block;
-    padding-top: 15px;
-} */
-/* .contactosec iframe{
-    padding-top: 40px;  CAMBIARLOS POR SVG
-} */
                                         /* termina contacto */
                                         /* start productos destacados flex */
 .productos{
@@ -162,12 +144,13 @@ form label{
     justify-content: space-around;
     background-color: rgba(5, 40, 49, 0.651);
 }
-main .productos h1{
+.titulo-productos{
     font-size: 4em;
     text-align: center;
     padding: 50px;
-    color: rgb(191, 212, 230);
-    background-color:rgba(5, 40, 49, 0.651)
+    color: burlywood;
+    background-color:rgba(5, 40, 49, 0.651);
+    margin-bottom: 0;
 }
 /* ++++++ PRODUCTOS DESTACADOS ++++++ */
 .headerIMG{
@@ -175,21 +158,24 @@ main .productos h1{
     width: 100%;
     height: 500px;
     object-fit: cover;
-    margin: 0;
 }
 .productos figure{
     width: 30%;
-    border: solid rgb(128, 128, 128) 1px;
     border-radius: 5px;
-    margin-bottom: 30px;
     margin-top: 50px;
     padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
 }
+
 .productos figure img{
     display: block;
     width: 90%;
     margin: 30px auto;
 }
+
 .productos figure figcaption{
     font-size: 1.8em;
     border-radius: 10px;
@@ -206,25 +192,25 @@ main .productos h1{
 }
 
 .productos figure button{
-    border: none;
-    padding: 6px 30px;
-    background-color: rgb(27, 25, 34);
-    border-radius: 3px;
-    color: rgb(245, 238, 238);
-    
     text-align: center;
-    margin-bottom: 20px;
-    width: 100%;
+    width: 75%;
+    font-size: 1.8em;
+    margin: 0px 35px;
+    padding: 12px;
+    border-radius: 15px;
+    background: rgba(5, 5, 5, 0.664);
+    color: burlywood;
 }
+
                                         /* termina productos destacados */
 
                                         /* empieza productos  grid */
 .filters{
-    padding: 0 20px 30px 30px;
+    padding: 10px 20px;
 }
 
 .filters a{
-    color: rgb(134, 130, 132);
+    color:burlywood;
     font-size: 2em;
     text-decoration: none;
     margin-bottom: 4px;
@@ -232,31 +218,31 @@ main .productos h1{
 }
 
 .filters a:hover{
-    color:rgb(20, 188, 255);
+    color:rgb(237, 218, 193);
 }
 
-    .filters span{
+.filters span{
     display: block;
-    color: whitesmoke;
+    color:burlywood;
     margin: 10px 0;
     letter-spacing: 1px;
     font-size: 2em;
 }
 
 .filters select{
-    color: rgb(20, 188, 255);
-    border: none;
-    background-color: white;
+    color:burlywood;
+    border:20px;
+    background-color: rgb(32, 30, 30);
     margin-bottom: 10px;
-    font-size: 1em;
+    font-size: 1.8em;
 }
 
 .filters li{
-    padding-left: 10px;
+    padding-left: 5px;
     list-style: none;
 }
 .tienda{
-    margin-right: 50px;
+    margin:10px;
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: 15% repeat(2,auto);
@@ -272,13 +258,22 @@ main .productos h1{
     "filters prod7 prod8"
 }
 .tienda .actions{
-    
     padding: 0 30px;
     grid-area: actions;
     display: flex;
     justify-content: end;
     align-items: center;
-
+    font-size: 1.8em;
+}
+.tienda .actions form,
+.tienda .actions input,
+.tienda .actions button{
+    background-color: burlywood;
+    color: black;
+    border-radius: 150px;
+    border: solid 2px rgb(107, 84, 55);
+    font-size: 1em;
+    font-weight: 200px;
 }
 .tienda .filters{
     grid-area: filters;
@@ -351,7 +346,6 @@ main .productos h1{
     align-items: center;
 }
 .img-prod{
-    
     border-radius: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -373,3 +367,81 @@ main .productos h1{
     background: rgba(5, 5, 5, 0.664);
     color: burlywood;
 }
+
+.actions svg{
+    fill: rgba(4, 4, 3, 0.726);
+    font-size: 1.4em;
+}
+
+/********************MEDIAS QUERYS ******************* */
+/* segundo breakpoint */
+@media (width < 1024px){
+    /* Start Flex-box */
+    .productos figure{
+        width: 45%;
+        padding: 0 20px;
+    }
+    /*  Ends Flex-box */
+}
+/* primer breakpoint */
+@media (width < 768px){
+    /* Start flex-box */
+    .productos figure{
+        width: 96%;
+    }
+    .titulo-productos{
+        font-size: 1.6em;
+    }
+    /*  Ends Flex-box */
+    /* start footer */
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer div{
+        margin: 5px;
+    }
+    /* end footer */
+    /* start tienda grid */
+    .tienda{
+        margin: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "actions"
+        "filters"
+        "prod1"
+        "prod2"
+        "prod3"
+        "prod4"
+        "prod5"
+        "prod6"
+        "prod7"
+        "prod8";
+    }
+    .tienda .actions{
+        justify-content: center;
+        font-size: 1em;
+    }
+    .tienda .filters span,
+    .tienda .filters label,
+    .tienda .filters input[type="checkbox"],
+    .tienda .filters ul{
+        display:none;
+    }
+    .prodTexto p,
+    .prodTexto h2{
+    color: burlywood;
+    font-size: 1.8em;
+    font-weight: 600;
+    }
+    .img-prod{
+        width: 80%
+    }
+    /* ends tienda grid */
+
+}
+
+
+
+
