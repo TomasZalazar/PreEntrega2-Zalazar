@@ -47,8 +47,9 @@ p{
 
 h1,
 h2,
-h3
-h4{
+h3,
+h4,
+label{
     color: burlywood;
     font-family: sans-serif;
 
@@ -101,42 +102,27 @@ body{
 
 
                                         /* section inicio */
-.section-inicio{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    gap: 150px;
-    padding-left: 50px;
 
+.bg-btn-a{
+    background-color: burlywood;
+    font-size: 1.2em;
+    font-weight: 1.6em;
 }
-.section-inicio img{
-    width: 300px;
-    height: 300px;
+.bg-card-body{
+    background-image: url(../img/bg/bgAzulado.jpg);
 }
-.section-inicio p{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+.text-color-body{
+    color:burlywood;
 }
 
 
-
-
-main {
-    background:none;
-    color: rgb(192, 176, 176);
-}
-
-section h1{
-    padding-top: 50px;
-}
                                         /* empieza contacto */
 .color-switch{
     background-color:red;
 }
 
                                         /* termina contacto */
-                                        /* start productos destacados flex */
+                                        /* start Ofertas flex */
 .productos{
     display: flex;
     flex-direction:row;
@@ -177,7 +163,8 @@ section h1{
 }
 
 .productos figure figcaption{
-    font-size: 1.8em;
+    font-size: 2em;
+    color: burlywood;
     border-radius: 10px;
     width:auto;
     height: 36px;
@@ -188,7 +175,7 @@ section h1{
     font-size: 1.1em;
     line-height: 1.4em;
     margin-bottom: 20px;
-    color: rgb(245, 238, 238);
+    color: burlywood;
 }
 
 .productos figure button{
