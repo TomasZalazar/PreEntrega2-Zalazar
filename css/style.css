@@ -115,7 +115,7 @@ body{
 }
 
 
-                                        /* Start Nosotros */
+                                        /* Start FAQs */
 .accordion-collapse{
     background-color: rgb(53, 52, 52);
     color: burlywood;
@@ -126,7 +126,7 @@ body{
 }
 
 
-                                        /* Ends Nosotros */
+                                        /* Ends FAQS */
                                         /* start Ofertas flex */
 .productos{
     display: flex;
