@@ -1,7 +1,6 @@
 
 *{
-    
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     box-sizing: border-box;
 }
@@ -54,7 +53,7 @@ label{
     font-family: sans-serif;
 
 }
-                                        /* +++++ FOOTER ++++++ */
+                                        /* +++++ Start FOOTER ++++++ */
 footer{
     width: 100%;
     display: flex;
@@ -93,7 +92,7 @@ footer a{
     text-decoration: none;
 }
 
-                                        /* +++++ FOOTER ++++++ */
+                                        /* +++++ Ends FOOTER ++++++ */
 body{
     background-repeat: repeat;
     background-attachment:fixed;
@@ -116,12 +115,18 @@ body{
 }
 
 
-                                        /* empieza contacto */
-.color-switch{
-    background-color:red;
+                                        /* Start Nosotros */
+.accordion-collapse{
+    background-color: rgb(53, 52, 52);
+    color: burlywood;
+}
+.accordion-button{
+    background-color: rgb(62, 62, 62);
+    color: burlywood;
 }
 
-                                        /* termina contacto */
+
+                                        /* Ends Nosotros */
                                         /* start Ofertas flex */
 .productos{
     display: flex;
@@ -255,7 +260,6 @@ body{
 .tienda .actions form,
 .tienda .actions input,
 .tienda .actions button{
-    background-color: burlywood;
     color: black;
     border-radius: 150px;
     border: solid 2px rgb(107, 84, 55);
@@ -361,7 +365,7 @@ body{
 }
 
 /********************MEDIAS QUERYS ******************* */
-/* segundo breakpoint */
+/* primer breakpoint */
 @media (width < 1024px){
     /* Start Flex-box */
     .productos figure{
@@ -370,7 +374,7 @@ body{
     }
     /*  Ends Flex-box */
 }
-/* primer breakpoint */
+/* segundo breakpoint */
 @media (width < 768px){
     /* Start flex-box */
     .productos figure{
