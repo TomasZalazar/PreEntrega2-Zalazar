@@ -1,0 +1,163 @@
+// CARDS
+@import "_mixins";
+
+.padre{
+    background-color: $bgColor;
+    @include flex (row,space-around,none,wrap);
+}
+.hijo {
+    
+    border-radius: 50px;
+    margin: 50px;
+    padding: 60px;
+    width: 40%;
+    height: 800px;;
+    background-color: $bgColor;
+    @include flex (column,end,center,none);
+    box-shadow: -7px -6px 5px 3px rgba(204, 44, 44, 0.58);
+    -webkit-box-shadow: -7px -6px 5px 3px rgba(216, 40, 40, 0.58);
+    -moz-box-shadow: -7px -6px 5px 3px rgba(204, 40, 53, 0.58);
+    p{
+        color:$keyColor;
+        line-height: 1.4em;
+        font-size: 2em;
+        padding:30px 0px;
+        flex-grow: 1;
+    }
+    img{
+        border-radius:50px;
+        display:block;
+        width: 80%;
+        height: 350px;
+        object-fit:fill;
+        
+    }
+    .btn-hijo{
+        width: 75%;
+        font-size: 1.8em;
+        margin: 0px 35px;
+        padding: 12px;
+        border-radius: 15px;
+        background:$black;
+        color:#F2F2F2;
+        
+    }
+}
+
+.draw-border {
+ box-shadow: inset 0 0 0 4px $mainColor;
+ color: $secondaryColor;
+ transition: color 0.25s 0.0833333333s;
+ position: relative;
+}
+
+.draw-border::before, .draw-border::after {
+ border: 0 solid transparent;
+ box-sizing: border-box;
+ content: "";
+ pointer-events: none;
+ position: absolute;
+ width: 0;
+ height: 0;
+ bottom: 0;
+ right: 0;
+}
+
+.draw-border::before {
+ border-bottom-width: 4px;
+ border-left-width: 4px;
+}
+
+.draw-border::after {
+ border-top-width: 4px;
+ border-right-width: 4px;
+}
+
+.draw-border:hover {
+ color: $mainColor;
+}
+
+.draw-border:hover::before, .draw-border:hover::after {
+ border-color: $secondaryColor;
+ transition: border-color 0s, width 0.25s, height 0.25s;
+ width: 100%;
+ height: 100%;
+}
+
+.draw-border:hover::before {
+ transition-delay: 0s, 0s, 0.25s;
+}
+
+.draw-border:hover::after {
+ transition-delay: 0s, 0.25s, 0s;
+}
+
+.btn {
+ background: none;
+ border: none;
+ cursor: pointer;
+ line-height: 1.5;
+ font: 700 17px "Roboto Slab", sans-serif;
+ padding: 1em 2em;
+ letter-spacing: 0.05rem;
+}
+
+.btn:focus {
+ outline: 2px dotted #dc5555;
+}
+
+
+
+
+                                                                           // LOGO
+
+.button {
+  position: relative;
+  border: none;
+  background: transparent;
+  --stroke-color: #ffffff7c;
+  --ani-color: rgba(95, 3, 244, 0);
+  --color-gar: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+  letter-spacing: 3px;
+  font-size: 2em;
+  font-family: "Arial";
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--stroke-color);
+  cursor: pointer;
+}
+
+.front-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  background: var(--color-gar);
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: 200%;
+  overflow: hidden;
+  transition: all 1s;
+  animation: 8s ani infinite;
+  border-bottom: 2px solid transparent;
+}
+
+.button:hover .front-text {
+  width: 100%;
+  border-bottom: 2px solid #03a9f4;
+  -webkit-text-stroke: 1px var(--ani-color);
+}
+
+@keyframes ani {
+  0% {
+    background-position: 0%;
+  }
+
+  50% {
+    background-position: 400%;
+  }
+
+  100% {
+    background-position: 0%;
+  }
+}

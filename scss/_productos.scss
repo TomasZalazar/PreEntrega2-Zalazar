@@ -1,0 +1,126 @@
+//productos con grid
+@import "_mixins";
+
+.filters{
+    padding: 10px 5px;
+
+    a{
+        color:$secondaryColor;
+        font-size:$sizeP;
+        text-decoration: none;
+        margin-bottom: 4px;
+        text-transform:uppercase;
+
+        &:hover{
+            color:$mainColor;
+            transition: 0.7s;
+        }
+    }
+    span{
+        display: block;
+        color:$mainColor;
+        margin: 10px 0;
+        letter-spacing: 1px;
+        font-size: 3em;
+    }
+    select{
+        color:$secondaryColor;
+        font-size: 3em;
+        background-color:$bgColor;
+        margin-bottom: 10px;
+        padding: 10px;
+}
+    li{
+        padding-left: 5px;
+        list-style: none;
+    }
+}
+.tienda{
+    margin: 30px;
+    margin-bottom: 50px;
+    gap: 70px 6%;
+    @include grid (15% repeat(2,auto),50px repeat(4,auto),"actions actions actions" "filters prod1 prod2" "filters prod3 prod4" "filters prod5 prod6" "filters prod7 prod8" );
+
+    .actions{
+        padding: 0 30px;
+        grid-area: actions;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        font-size:$sizeL;
+
+        & form,label,button{
+            color:$black;
+            border-radius: 150px;
+            border: solid 2px rgb(107, 84, 55);
+            font-size: 1em;
+            font-weight: 200px;
+            
+        }
+    }
+    .filters{
+        grid-area: filters;
+        padding: 10px 0px;
+    }
+    .prod1{
+        margin-bottom:10px;
+        padding: 30px;
+        margin:none;
+        grid-area: prod1;
+        border-radius: 10px;
+        @include flex (column,space-evenly,center,none);
+        display: flex;
+        box-shadow:inset 0px 0px 18px 2px #6c757d;
+    }
+    .prod2{
+        @extend .prod1;
+        grid-area: prod2;
+    }
+    .prod3{
+        @extend .prod1;
+        grid-area: prod3;
+    }
+    .prod4{
+        @extend .prod1;
+        grid-area: prod4;
+    }
+    .prod5{
+        @extend .prod1;
+        grid-area: prod5;
+    }
+    .prod6{
+        @extend .prod1;
+        grid-area: prod6;
+    }
+    .prod7{
+        @extend .prod1;
+        grid-area: prod7;
+    }
+    .prod8{
+        @extend .prod1;
+        grid-area: prod8;
+    }
+
+}
+.img-prod{
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    width: 68%;
+}
+.prodTexto{
+    p,h2{
+        color:$white;
+        font-size: $sizeXL;
+        font-weight: 700;
+    }
+}
+
+
+.actions{
+    svg{
+        fill:$mainColor;
+        font-size: 1.4em;
+    }
+}

@@ -1,0 +1,42 @@
+//todo lo general del proyecto
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: $mainFont;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+html{
+    font-size: 63.5%;
+}
+h1{
+    font-size: $sizeXL;
+}
+h2{
+    font-size: $sizeL;
+}
+h3{
+    font-size: $sizeM;
+}
+h4{
+    font-size: $sizeS;
+}
+p{
+    color:$secondaryColor;
+    font-size: $sizeP;
+    font-family:$mainFont;
+    font-weight: 600;
+    line-height: $sizeP;
+}
+h1,
+h2,
+h3,
+h4,
+label{
+    font-family:$mainFont;
+    color: $mainColor;
+}
+body{
+    background-color:#000000;
+    background-repeat: repeat;
+    background-attachment:fixed;
+}

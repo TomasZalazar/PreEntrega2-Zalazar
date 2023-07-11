@@ -1,0 +1,84 @@
+
+
+//********************MEDIAS QUERYS ******************* */
+//* primer breakpoint */
+@media (width < 1024px){
+    //* Start Flex-box */
+    .productos figure{
+        width: 45%;
+        padding: 0 20px;
+    }
+    
+    //*  Ends Flex-box */
+}
+//* segundo breakpoint */
+@media (width < 768px){
+    //* Start flex-box */
+    .productos figure{
+        width: 96%;
+    }
+    .titulo-productos{
+        font-size: 1.6em;
+    }
+    //*  Ends Flex-box */
+    //* start footer */
+    footer{
+        flex-direction: column;
+        align-items: center;
+        & div{
+            margin: 5px;
+        }
+    }
+    //* end footer */
+    //* start tienda grid */
+    .tienda{
+        padding: 30px;
+        margin: 0;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "actions"
+        "filters"
+        "prod1"
+        "prod2"
+        "prod3"
+        "prod4"
+        "prod5"
+        "prod6"
+        "prod7"
+        "prod8";
+        .actions{
+            justify-content: center;
+            font-size: 1em;
+        }
+        & .filters{
+            span,label,input[type="checkbox"],ul{
+                display: none;
+            }
+        }
+    }
+    
+    .prodTexto{
+        p,h2{
+            color: burlywood;
+            font-size: 1.8em;
+            font-weight: 600;
+        }
+    }
+    
+    .img-prod{
+        width: 80%
+    }
+    //* ends tienda grid */
+
+    // cards inicio
+    .bg-card-1 .card-body-1 {
+        display: flex;
+        padding: 15px;
+        margin: 0px;
+        color: red;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

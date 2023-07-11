@@ -1,0 +1,20 @@
+
+
+
+.text-colors{
+    font-size: 3em;
+    font-weight:900;
+    color:$mainColor;
+    margin-left: 30px;
+    &:hover{
+        color: $secondaryColor;
+        transition: 0.5s;
+    }
+}
+.button-color{
+    background-color:$mainColor;
+    font-size: 2em;
+}
+.bg-nav{
+    background-color:$black;
+}
