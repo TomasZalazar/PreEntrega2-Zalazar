@@ -2,63 +2,63 @@
 
 //animation BTN Compras
 .draw-border {
-    box-shadow: inset 0 0 0 4px $mainColor;
-    color: $secondaryColor;
-    transition: color 0.25s 0.0833333333s;
-    position: relative;
+  box-shadow: inset 0 0 0 4px $mainColor;
+  color: $secondaryColor;
+  transition: color 0.25s 0.0833333333s;
+  position: relative;
 }
 
 .draw-border::before, .draw-border::after {
-    border: 0 solid transparent;
-    box-sizing: border-box;
-    content: "";
-    pointer-events: none;
-    position: absolute;
-    width: 0;
-    height: 0;
-    bottom: 0;
-    right: 0;
+  border: 0 solid transparent;
+  box-sizing: border-box;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
 }
 
 .draw-border::before {
-    border-bottom-width: 4px;
-    border-left-width: 4px;
+  border-bottom-width: 4px;
+  border-left-width: 4px;
 }
 
 .draw-border::after {
-    border-top-width: 4px;
-    border-right-width: 4px;
+  border-top-width: 4px;
+  border-right-width: 4px;
 }
 
 .draw-border:hover {
-    color: $mainColor;
+  color: $mainColor;
 }
 
 .draw-border:hover::before, .draw-border:hover::after {
-    border-color: $secondaryColor;
-    transition: border-color 0s, width 0.25s, height 0.25s;
-    width: 100%;
-        height: 100%;
+  border-color: $secondaryColor;
+  transition: border-color 0s, width 0.25s, height 0.25s;
+  width: 100%;
+      height: 100%;
 }
 
 .draw-border:hover::before {
-    transition-delay: 0s, 0s, 0.25s;
+  transition-delay: 0s, 0s, 0.25s;
 }
 
 .draw-border:hover::after {
-    transition-delay: 0s, 0.25s, 0s;
+  transition-delay: 0s, 0.25s, 0s;
 }
 
 .btn {
-    margin-top: 70px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    line-height: 1.5;
-    font: 700 17px "Roboto Slab", sans-serif;
-    padding: 1em 2em;
-    letter-spacing: 0.05rem;
-    margin-bottom: 52px;
+  margin-top: 70px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1.5;
+  font: 700 17px "Roboto Slab", sans-serif;
+  padding: 1em 2em;
+  letter-spacing: 0.05rem;
+  margin-bottom: 52px;
 }
 
 
@@ -67,239 +67,239 @@
 
 
 .card-footer {
-  margin-top: 92px;
-  width: fit-content;
-  height: fit-content;
-  border-top: rgba(187, 2, 2, 0.716) 1px solid;
-  background-color: rgb(0 0 0);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 25px 25px;
-  gap: 20px;
-  width: 100%;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
-  flex-direction: row;
-  align-content: center;
+margin-top: 92px;
+width: fit-content;
+height: fit-content;
+border-top: rgba(187, 2, 2, 0.716) 1px solid;
+background-color: rgb(0 0 0);
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 25px 25px;
+gap: 20px;
+width: 100%;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+flex-direction: row;
+align-content: center;
 }
 
 /* for all social containers*/
 .socialContainer {
-  width: 52px;
-  height: 52px;
-  border-radius: 50%;
-  background-color: rgb(44, 44, 44);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  transition-duration: .3s;
+width: 52px;
+height: 52px;
+border-radius: 50%;
+background-color: rgb(44, 44, 44);
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+transition-duration: .3s;
 }
 /* instagram*/
 .containerOne:hover {
-  background-color: #5531a8;
-  transition-duration: .3s;
+background-color: #5531a8;
+transition-duration: .3s;
 }
 /* twitter*/
 .containerTwo:hover {
-  background-color: #00acee;
-  transition-duration: .3s;
+background-color: #00acee;
+transition-duration: .3s;
 }
 /* linkdin*/
 .containerThree:hover {
-  background-color: #0072b1;
-  transition-duration: .3s;
+background-color: #0072b1;
+transition-duration: .3s;
 }
 /* Whatsapp*/
 .containerFour:hover {
-  background-color: #128C7E;
-  transition-duration: .3s;
+background-color: #128C7E;
+transition-duration: .3s;
 }
 
 .socialContainer:active {
-  transform: scale(0.9);
-  transition-duration: .3s;
+transform: scale(0.9);
+transition-duration: .3s;
 }
 
 .socialSvg {
-  width: 17px;
+width: 17px;
 }
 
 .socialSvg path {
-  fill: rgb(255, 255, 255);
+fill: rgb(255, 255, 255);
 }
 
 .socialContainer:hover .socialSvg {
-  animation: slide-in-top 0.3s both;
+animation: slide-in-top 0.3s both;
 }
 
 @keyframes slide-in-top {
-  0% {
-    transform: translateY(-50px);
-    opacity: 0;
-  }
+0% {
+  transform: translateY(-50px);
+  opacity: 0;
+}
 
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
+100% {
+  transform: translateY(0);
+  opacity: 1;
+}
 }
 
 // animations contacto
 
 
 .inputbox {
-  position: relative;
-  width: 196px;
+position: relative;
+width: 196px;
 }
 
 .inputbox input {
-  position: relative;
-  width: 100%;
-  padding: 20px 10px 10px;
-  background: transparent;
-  outline: none;
-  box-shadow: none;
-  border: none;
-  color: #23242a;
-  font-size: 1em;
-  letter-spacing: 0.05em;
-  transition: 0.5s;
-  z-index: 10;
+position: relative;
+width: 100%;
+padding: 20px 10px 10px;
+background: transparent;
+outline: none;
+box-shadow: none;
+border: none;
+color: #23242a;
+font-size: 1em;
+letter-spacing: 0.05em;
+transition: 0.5s;
+z-index: 10;
 }
 
 .inputbox span {
-  position: absolute;
-  left: 0;
-  padding: 20px 10px 10px;
-  font-size: 1em;
-  color: #8f8f8f;
-  letter-spacing: 00.05em;
-  transition: 0.5s;
-  pointer-events: none;
+position: absolute;
+left: 0;
+padding: 20px 10px 10px;
+font-size: 1em;
+color: #8f8f8f;
+letter-spacing: 00.05em;
+transition: 0.5s;
+pointer-events: none;
 }
 
 .inputbox input:valid ~span,
 .inputbox input:focus ~span {
-  color: #45f3ff;
-  transform: translateX(-10px) translateY(-34px);
-  font-size: 0,75em;
+color: #45f3ff;
+transform: translateX(-10px) translateY(-34px);
+font-size: 0,75em;
 }
 
 .inputbox i {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background: #45f3ff;
-  border-radius: 4px;
-  transition: 0.5s;
-  pointer-events: none;
-  z-index: 9;
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 2px;
+background: #45f3ff;
+border-radius: 4px;
+transition: 0.5s;
+pointer-events: none;
+z-index: 9;
 }
 
 .inputbox input:valid ~i,
 .inputbox input:focus ~i {
-  height: 44px;
+height: 44px;
 }
 
 
 // Animations publicidad
 
 .form {
-  display: flex;
-  flex-direction: column;
-  background: #606c88;
-  background: linear-gradient(to right, #cf232b, #160709);
-  padding: 20px;
-  border-radius: 10px;
-  max-width: 946px;
-  max-height:950px;
+display: flex;
+flex-direction: column;
+background: #606c88;
+background: linear-gradient(to right, #cf232b, #160709);
+padding: 20px;
+border-radius: 10px;
+max-width: 946px;
+max-height:950px;
 }
 
 .title {
-  font-size: 2rem;
-  line-height: 2rem;
-  font-weight: 700;
-  letter-spacing: -0.025em;
-  color: #fff;
+font-size: 2rem;
+line-height: 2rem;
+font-weight: 700;
+letter-spacing: -0.025em;
+color: #fff;
 }
 
 .description {
-  line-height: 1.5rem;
-  font-size: 1rem;
-  margin-top: 1rem;
-  color: rgb(209 213 219);
+line-height: 1.5rem;
+font-size: 1rem;
+margin-top: 1rem;
+color: rgb(209 213 219);
 }
 
 .form div {
-  display: flex;
-  max-width: 28rem;
-  margin-top: 1rem;
-  column-gap: 0.5rem;
+display: flex;
+max-width: 28rem;
+margin-top: 1rem;
+column-gap: 0.5rem;
 }
 
 .form div input {
-  outline: none;
-  line-height: 1.5rem;
-  font-size: 0.875rem;
-  color: rgb(255 255 255 );
-  padding: 0.5rem 0.875rem;
-  background-color: rgb(255 255 255 / 0.05);
-  border: 1px solid rgba(253, 253, 253, 0.363);
-  border-radius: 0.375rem;
-  flex: 1 1 auto;
+outline: none;
+line-height: 1.5rem;
+font-size: 0.875rem;
+color: rgb(255 255 255 );
+padding: 0.5rem 0.875rem;
+background-color: rgb(255 255 255 / 0.05);
+border: 1px solid rgba(253, 253, 253, 0.363);
+border-radius: 0.375rem;
+flex: 1 1 auto;
 }
 
 .form div input::placeholder {
-  color: rgb(216, 212, 212);
+color: rgb(216, 212, 212);
 }
 
 .form div input:focus {
-  border: 1px solid rgb(99 102 241);
+border: 1px solid rgb(99 102 241);
 }
 
 .form div button {
-  color: #fff;
-  font-weight: 600;
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-  padding: 0.625rem 0.875rem;
-  background-color: rgb(99 102 241);
-  border-radius: 0.375rem;
-  border: none;
-  outline: none;
+color: #fff;
+font-weight: 600;
+font-size: 0.875rem;
+line-height: 1.25rem;
+padding: 0.625rem 0.875rem;
+background-color: rgb(99 102 241);
+border-radius: 0.375rem;
+border: none;
+outline: none;
 }
 // BTN PUBLICIDAD
 .btn-publi {
-  display: inline-block;
-  padding: 8px;
-  font-size: 15px;
-  font-weight: 400;
-  color: #e1e1e1;
-  cursor: pointer;
-  width: 43%;
-  position: relative;
-  background-color: #060000;
-  text-decoration: none;
-  overflow: hidden;
-  z-index: 1;
-  font-family: inherit;
+display: inline-block;
+padding: 8px;
+font-size: 15px;
+font-weight: 400;
+color: #e1e1e1;
+cursor: pointer;
+width: 43%;
+position: relative;
+background-color: #060000;
+text-decoration: none;
+overflow: hidden;
+z-index: 1;
+font-family: inherit;
 }
 .btn-publi::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(144, 7, 30);
-  transform: translateX(-100%);
-  transition: all .3s;
-  z-index: -1;
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgb(144, 7, 30);
+transform: translateX(-100%);
+transition: all .3s;
+z-index: -1;
 }
- 
+
 .btn-publi:hover::before {
-  transform: translateX(0);
+transform: translateX(0);
 }

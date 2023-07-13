@@ -1,101 +1,100 @@
-
 .bg-btn-a{
-    background-color:$mainColor;
-    color:$secondaryColor;
-    font-size:$sizeL;
-    font-weight: 1.6em;
-    &:hover{
-        background-color: $black;
-        color: $secondaryColor;
-        transition: 0.5s;
-    }
+  background-color:$mainColor;
+  color:$secondaryColor;
+  font-size:$sizeL;
+  font-weight: 1.6em;
+  &:hover{
+      background-color: $black;
+      color: $secondaryColor;
+      transition: 0.5s;
+  }
 }
 .bg-card-body{
-    background-color: $bgColor;
+  background-color: $bgColor;
 }
 .text-color-body{
-    color:$mainColor;
+  color:$mainColor;
 }
 .text-pad{
-    margin: 80px 40px;
+  margin: 80px 40px;
 }
 
 .contacto{
-    padding-top: 78px;
+  padding-top: 78px;
 }
 
 //logo animation
 /* === removing default button style ===*/
 .logo1 {
-    margin: 7px;
-    margin-left: 25px;
-    height: auto;
-    background:transparent;
-    padding: 0;
-    border: none;
-  }
-  
-  /* button styling */
-  .logo1 {
-    --border-right: 2px;
-    --text-stroke-color: rgb(255 255 255 / 0%);
-    --animation-color: #ff0019;
-    --fs-size: $sizeXL;
-    letter-spacing: -1px;
-    text-decoration: none;
-    font-size: 5em;
-    font-family:$mainFont;
-    position: relative;
-    text-transform: uppercase;
-    color:$secondaryColor;
-    -webkit-text-stroke: 2px rgb(255 255 255 / 0%);
-  }
-  /* this is the text, when you hover on button */
-  .logo1-text{
-    height: 72px;
-    position: absolute;
-    box-sizing: border-box;
-    content: attr(data-text);
-    color: var(--animation-color);
-    width: 0%;
-    inset: 0;
-    border-right: var(--border-right) solid var(--animation-color);
-    overflow: hidden;
-    transition: 0.5s;
-    -webkit-text-stroke: 1px var(--animation-color);
-  }
-  /* hover */
-  .logo1:hover .logo1-text {
-    width: 100%;
-    filter: drop-shadow(0 0 23px var(--animation-color))  ;
-    -webkit-filter: drop-shadow(0 0 23px var(--animation-color));
+  margin: 7px;
+  margin-left: 25px;
+  height: auto;
+  background:transparent;
+  padding: 0;
+  border: none;
+}
+
+/* button styling */
+.logo1 {
+  --border-right: 2px;
+  --text-stroke-color: rgb(255 255 255 / 0%);
+  --animation-color: #ff0019;
+  --fs-size: $sizeXL;
+  letter-spacing: -1px;
+  text-decoration: none;
+  font-size: 5em;
+  font-family:$mainFont;
+  position: relative;
+  text-transform: uppercase;
+  color:$secondaryColor;
+  -webkit-text-stroke: 2px rgb(255 255 255 / 0%);
+}
+/* this is the text, when you hover on button */
+.logo1-text{
+  height: 72px;
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.logo1:hover .logo1-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))  ;
+  -webkit-filter: drop-shadow(0 0 23px var(--animation-color));
 }
 
 // CARDS BG
 .card-m-1{
-  margin: 250px 4px;
+margin: 250px 4px;
 
 }
 .bg-card-1{
-  background-color:$secondaryColor;
-    .card-body-1{
-    display: flex;
-    padding: 50px;
-    margin: 50px;
-    color: red;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    .card-title-1{
-      font-family:$mainFont;
-      color:$mainColor;
-      font-size: 3em;
-      font-weight: bold;
-    }
-    .card-p{
-      font-size: $sizeXL;
-      color:$white;
-    }
+background-color:$secondaryColor;
+  .card-body-1{
+  display: flex;
+  padding: 50px;
+  margin: 50px;
+  color: red;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  .card-title-1{
+    font-family:$mainFont;
+    color:$mainColor;
+    font-size: 3em;
+    font-weight: bold;
   }
+  .card-p{
+    font-size: $sizeXL;
+    color:$white;
+  }
+}
 }
 .scale-up-horizontal-center{ animation:scale-up-horizontal-center 1s; -webkit-animation:scale-up-horizontal-center 1s; } @keyframes scale-up-horizontal-center{0%{transform:scaleX(.2)}100%{transform:scaleX(1)}}
