@@ -950,6 +950,15 @@ footer ul li a {
   transform: translateX(0);
 }
 
+.contenedor-svg {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (width < 1024px) {
   .productos figure {
     width: 45%;
@@ -1007,14 +1016,6 @@ footer ul li a {
     width: 300px;
     height: 306px;
   }
-}
-.contenedor-svg {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
