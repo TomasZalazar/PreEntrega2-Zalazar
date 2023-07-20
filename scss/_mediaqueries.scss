@@ -60,7 +60,7 @@
     
     .prodTexto{
         p,h2{
-            color: burlywood;
+            color:$mainColor;
             font-size: 1.8em;
             font-weight: 600;
         }
@@ -80,5 +80,15 @@
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
+    }
+
+}
+
+//tercer breakpoint
+@media (width < 660px){
+    //imagen error404
+    .img-error404{
+    width: 300px;
+    height: 306px;
     }
 }

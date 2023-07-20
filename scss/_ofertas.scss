@@ -16,7 +16,11 @@
         box-shadow: 0px 0px 154px -35px rgba(255,255,255,1) inset;
         -webkit-box-shadow: 0px 0px 154px -35px rgba(255,255,255,1) inset;
         -moz-box-shadow: 0px 0px 154px -35px rgba(255,255,255,1) inset;
-
+        transform: scale(1);
+        transition: transform 0.3s ease; 
+        &:hover{
+            transform: scale(1.1);
+        }
         img{
             display: block;
             width: 90%;
