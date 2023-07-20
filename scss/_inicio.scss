@@ -88,7 +88,7 @@ background-color:$secondaryColor;
   .card-title-1{
     font-family:$mainFont;
     color:$mainColor;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bold;
   }
   .card-p{
@@ -97,4 +97,7 @@ background-color:$secondaryColor;
   }
 }
 }
-.scale-up-horizontal-center{ animation:scale-up-horizontal-center 1s; -webkit-animation:scale-up-horizontal-center 1s; } @keyframes scale-up-horizontal-center{0%{transform:scaleX(.2)}100%{transform:scaleX(1)}}
+.scale-up-horizontal-center{animation:scale-up-horizontal-center 1s; -webkit-animation:scale-up-horizontal-center 1s; } 
+@keyframes scale-up-horizontal-center{
+  0%{transform:scaleX(.2)}
+  100%{transform:scaleX(1)}}
