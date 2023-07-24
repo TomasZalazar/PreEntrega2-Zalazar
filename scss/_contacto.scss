@@ -35,3 +35,11 @@
     justify-content: space-around;
     margin-top: 40px;
 }
+.publi-x{
+    --bs-gutter-x: 0;
+}
+.direccion-font{
+    font-size: $sizeL;
+    color: $white;
+    padding-top: 20px;
+}

@@ -7,4 +7,17 @@
     background-color:$black;
     color:$mainColor;
     font-size: $sizeL;
+    &:not(.collapsed) {
+        color:$mainColor;
+        background-color:$black;
+        box-shadow: 1px -7px 33px -7px rgba(255,65,65,0.75);
+    }
+}
+.accordion-body{
+    font-size: 3em;
+    color: $secondaryColor;
+}
+
+.text-title-faqs{
+    font-size: 4em;
 }

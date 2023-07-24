@@ -22,11 +22,15 @@ footer{
                 font-size:$sizeM;
                 color: $white;
                 text-decoration: none;
+            
             }
         }
     }
-
 }
+
+// .slide-right{animation:slide-right 0.4s linear both}
+
+// @keyframes slide-right{0%{transform:translateX(0)}100%{transform:translateX(100px)}}
 
 // Animations publicidad
 
@@ -117,4 +121,7 @@ footer{
     &:hover::before {
         transform: translateX(0);
         }
+}
+.input-publi{
+    width: 100%;
 }

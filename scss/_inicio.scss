@@ -24,7 +24,6 @@
 }
 
 //logo animation
-/* === removing default button style ===*/
 .logo1 {
   margin: 7px;
   margin-left: 25px;
@@ -42,7 +41,7 @@
   --fs-size: $sizeXL;
   letter-spacing: -1px;
   text-decoration: none;
-  font-size: 5em;
+  font-size: 4em;
   font-family:$mainFont;
   position: relative;
   text-transform: uppercase;
@@ -51,7 +50,7 @@
 }
 /* this is the text, when you hover on button */
 .logo1-text{
-  height: 72px;
+  height: 50px;
   position: absolute;
   box-sizing: border-box;
   content: attr(data-text);
@@ -76,7 +75,7 @@ margin: 100px 4px;
 
 }
 .bg-card-1{
-background-color:$secondaryColor;
+  background-color: var(--bs-gray-900);
   .card-body-1{
   display: flex;
   padding: 50px;
