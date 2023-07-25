@@ -1,6 +1,6 @@
 # 🍄 Sobre mi 🍄
 
-¡Hola! Soy Tomas Zalazar, esoty estudiadno en la carrera de Developer Full Stack, ya di el primer paso y termine el curso de Desarroyo Web. Comencé mi viaje en CODERHOUSE, donde adquirí habilidades en desarrollo web. Ahora, estoy emocionado por crecer en este campo y seguir nutriendome de conocimientos, enfrentar desafíos y crear soluciones innovadoras.
+¡Hola! Soy Tomas Zalazar, estoy en la carrera de Developer Full Stack, ya di el primer paso y termine el curso de Desarroyo Web. Comencé mi viaje en CODERHOUSE, donde adquirí habilidades en desarrollo web. Ahora, estoy emocionado por crecer en este campo y seguir nutriendome de conocimientos, enfrentar desafíos y crear soluciones innovadoras.
 
 
 ## 🌐 Redes Sociales 🌐
