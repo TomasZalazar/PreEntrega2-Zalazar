@@ -53,7 +53,7 @@ Hemos creado nuestro sitio web utilizando tecnologías modernas y versátiles pa
 | CSS                  | <img src="https://i.postimg.cc/2y6Yrrxc/CSS3-logo-and-wordmark-svg.png" width="50" align="center" valign="middle">           |
 | Sass                 | <img src="https://i.postimg.cc/q74yw5wB/imgbin-sass-cascading-style-sheets-preprocessor-less-postcss-png.png" width="70" valign="middle">         |
 | Bootstrap           | <img src="https://i.postimg.cc/QN4sSKXR/Bootstrap-logo-svg.png" width="60" align="center" valign="middle">    |
-| GitHub              | <img src="https://i.postimg.cc/442ynNSQ/Git-Hub-Logo-700x394.png" width="90" align="center" valign="middle" style="margin-left: -9px;">       |
+| GitHub              | <img src="https://i.postimg.cc/BbHbyRxw/github.png" width="90" align="center" valign="middle" style="margin-left: -9px;">       |
 
 ## 💪 Nuestro Compromiso 💪
 
