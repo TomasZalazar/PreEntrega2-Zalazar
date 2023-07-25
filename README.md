@@ -61,13 +61,19 @@ En Tomex-Tienda Gamer, estamos orgullosos de ofrecer productos de alta calidad y
 
 ¡Únete a nosotros en esta emocionante aventura gamer y descubre el mundo de posibilidades que nuestros productos de vanguardia pueden ofrecerte! 🔥
 
-👋🏼 ¡Adiós y hasta pronto! 👋🏼
 
-📝 Gracias por tomar el tiempo para leer este README. Espero que haya sido útil y claro. Si tienes alguna pregunta o necesitas más ayuda, no dudes en contactarme. Estoy aquí para ayudarte siempre que lo necesites. 😊
 
-🌟 ¡Mucho éxito en tu proyecto! Que tus ideas brillen y tus líneas de código fluyan sin problemas. 🚀
 
-🤖 ¡Keep coding and stay awesome! 💻🤩
+
+
+## 👋🏼 ¡Adiós y hasta pronto! 👋🏼
+
+Gracias por tomar el tiempo para leer este README. Espero que haya sido útil y claro. Si tienes alguna pregunta o necesitas más ayuda, no dudes en contactarme. Estoy aquí para ayudarte siempre que lo necesites. 😊
+
+¡Mucho éxito en tu proyecto! Que tus ideas brillen y tus líneas de código fluyan sin problemas. 🚀
+
+```python
+# ¡Keep coding and stay awesome! 💻🤩
 
 🙏🏼 ¡Gracias de nuevo y que tengas un día increíble! 😃✨
 
