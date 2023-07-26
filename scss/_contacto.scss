@@ -6,27 +6,28 @@
     border: 1px solid rgb(9, 9, 9);
     margin: 20px auto;
     padding: 50px 100px;
+    h1{
+        font-size: 2.5em;
+        color: #f2f2f2;
+        font-style: bold;
+        text-align: center;
+        background-color: red;
+    }
+    .form-label{
+        font-size: 2.3em;
+        color: rgb(242, 242, 242);
+        padding: 10px 0px;
+    }
+    & input, textarea{
+        background-color: #313131;
+        color: $white;
+        font-size: 2em;
+    }
+
 }
-.contenedor-contacto h1{
-    font-size: 2.5em;
-    color: #f2f2f2;
-    font-style: bold;
-    text-align: center;
-    background-color: red;
-}
-.contenedor-contacto .form-label{
-    font-size: 2.3em;
-    color: rgb(242, 242, 242);
-    padding: 10px 0px;
-}
+
 .form-floating{
     padding-top: 50px;
-}
-.contenedor-contacto input,
-.contenedor-contacto textarea{
-    background-color: #313131;
-    color: $white;
-    font-size: 2em;
 }
 .btn-contacto{
     font-size: 2em;
