@@ -113,9 +113,7 @@ body {
 
 .card-footer {
   margin-top: 92px;
-  width: -moz-fit-content;
   width: fit-content;
-  height: -moz-fit-content;
   height: fit-content;
   border-top: rgba(187, 2, 2, 0.716) 1px solid;
   background-color: rgb(0, 0, 0);
@@ -620,8 +618,7 @@ body {
   display: block;
   width: 100%;
   height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .accordion-collapse {
@@ -738,8 +735,7 @@ footer ul li a {
   flex-wrap: wrap;
   max-width: 28rem;
   margin-top: 1rem;
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
+  column-gap: 0.5rem;
 }
 .form div input {
   outline: none;
@@ -750,9 +746,6 @@ footer ul li a {
   background-color: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(253, 253, 253, 0.363);
   border-radius: 0.375rem;
-}
-.form div input::-moz-placeholder {
-  color: rgb(216, 212, 212);
 }
 .form div input::placeholder {
   color: rgb(216, 212, 212);
@@ -888,4 +881,6 @@ footer ul li a {
     width: 300px;
     height: 306px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
