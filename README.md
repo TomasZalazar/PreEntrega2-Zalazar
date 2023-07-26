@@ -26,6 +26,7 @@ Para comenzar a utilizar el proyecto, sigue estos sencillos pasos:
 
 #### Aqui te dejamos los links:
 
+
 Hosting netifly: https://tomex-tiendagamer.netlify.app/index.html
 
 Repositorio:   https://github.com/TomasZalazar/Proyecto-Zalazar.git
